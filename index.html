@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>practica</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+
+</head>
+
+
+<body>
+
+    <nav class="navbar bg-success fixed-top ">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <img src="https://img.freepik.com/vector-premium/plantilla-diseno-logotipo-agua-onda_7492-310.jpg" alt="Logo"  class="d-inline-block align-text-top">
+                OcCorp
+              </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    OcCorp
+                  </h5>
+
+                  <button  type="button" class="btn-close fs-3"
+                  data-bs-dismiss="offcanvas" aria-label="Close">
+
+                  </button>
+                </div>
+
+                <div class="offcanvas-body ">
+
+                    <ul class="border text-center  navbar-nav justify-content-start flex-grow-1 pe-3 mt-5">
+                      <li class="nav-item  mb-5">
+                        <a class="fs-3 nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+
+                      <li class="nav-item mb-5">
+                        <a class="fs-3 nav-link" href="#">modelos</a>
+                      </li>
+
+                      <li class="nav-item mb-5">
+                        <a class="fs-3 nav-link" href="#">sucursales</a>
+                      </li>
+
+                      <li class="nav-item mb-5">
+                        <a class="fs-3 nav-link" href="#">contacto</a>
+                      </li>
+                      
+                    </ul>
+            
+                </div>
+
+          </div>
+          
+        </div>
+    </nav>
+
+
+    <main class="pt-5 bg-principal min-vh-100">
+
+      <div class="text-center pt-5">
+        <h1 class="text-primary fw-semibold text-capitalize">los mejores autos del mundo</h1>
+        <p class="fs-5">
+          miles de marcas, miles de estilos
+        </p>
+      </div>
+
+      <div class="container">
+            
+            <section id="carrusel">
+
+              <div id="carouselExampleIndicators" class="carousel slide">
+
+                  <div class="carousel-indicators">
+
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+                  </div>
+
+                  <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                      <img src="https://hyundai.pe/wp-content/uploads/2018/11/banner-home-desktop-new-i10sedan-1860-x-720-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                      <img src="https://hyundai.pe/wp-content/uploads/2018/11/banner-home-desktop-new-i10hatch-1860-x-720.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                      <img src="https://hyundai.pe/wp-content/uploads/2018/11/BANNER-HOME-KONA-HYBRID-1860-x-720.png" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                      <img src="https://hyundai.pe/wp-content/uploads/2023/08/banner-home-ioniq-desktop-1-8.png" class="d-block w-100" alt="...">
+                    </div>
+
+                  </div>
+
+
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+
+                  </button>
+
+
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+
+
+              </div>
+
+            </section>
+
+           
+            <section id="campos" class="row mt-5  align-items-lg-center text-center ">
+
+              <h1 class="text-capitalize">para todos los campos</h1>
+
+              <div class="align-items-center row row-cols-1 row-cols-md-2 row-cols-lg-4">
+
+
+                <div class="p-2 col mb-3">
+                  <div class="card mx-auto">
+                    <img src="https://plus.unsplash.com/premium_photo-1661925873810-012ce7c32514?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1155&q=80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-capitalize">carretera rural</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col mb-3">
+                  <div class="card">
+                    <img src="https://images.unsplash.com/photo-1547235001-d703406d3f17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-capitalize">montes deserticos</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col mb-3">
+                  <div class="card">
+                    <img src="https://images.unsplash.com/photo-1526991902737-3cd476541629?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-capitalize">campos nevados</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col mb-3">
+                  <div class="card">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text">jungla urbana</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+              
+            </section>
+            
+
+
+            <section id="financiamiento" class="border row gy-2 gy-md-5 align-items-center text-center mt-5 pb-4">
+
+                  <article class="col-12 col-lg-5 ">
+                      <h2>Conoce el financiamiento que tenemos para ti</h2>
+                      <p>En Hyundai sabemos que nuestros clientes tienen distintas necesidades, es por eso que en nuestros concesionarios encontrarás una amplia variedad de servicios de financiamiento acorde a tus requerimientos.</p>
+                  </article>
+
+                  <article class="col-12 col-lg-7 border">
+                      <img class="img-fluid" src="https://hyundai.pe/wp-content/uploads/2023/08/700x418-5-700x418-1.webp" alt="">
+                  </article>
+
+
+                  
+                  <article class="col-12 col-lg-5 order-md-1 border">
+                    <h2>Servicio Técnico</h2>
+                    <p>Agenda el mantenimiento de tu vehículo.</p>
+                  </article>
+
+                  <article class="col-12 col-lg-7 border">
+                      <img class="img-fluid" src="https://hyundai.pe/wp-content/uploads/2023/08/img-mecanico-hyundai-08-23.jpg" alt="">
+                  </article>
+
+            </section>
+
+
+      </div>
+
+    </main>
+
+
+    <footer class="bg-dark p-3">
+
+      <div class="container text-center">
+       <nav class="d-flex border justify-content-evenly">
+           <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook fs-3"></i></a>
+           <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter fs-3"></i></a>
+           <a href="https://github.com" target="_blank"><i class="bi bi-github fs-3"></i></a>
+           <a href="https://youtube.com" target="_blank"><i class="bi bi-youtube fs-3"></i></a>
+           <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram fs-3"></i></a>
+           <a href="https://m.me/user" target="_blank"><i class="bi bi-messenger fs-3"></i></a>
+           <a href="https://api.whatsapp.com/send?phone=51904095788" target="_blank"><i class="bi bi-whatsapp fs-3"></i></a>
+       </nav>
+         <small class="text-white">&copy todos los derechos reservados  2023</small>
+      </div>
+   
+   </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>

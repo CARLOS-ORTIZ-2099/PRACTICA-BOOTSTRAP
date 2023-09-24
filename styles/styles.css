@@ -1,0 +1,101 @@
+.navbar-brand img{
+    width: 50px;
+    height: auto;
+    color: rgb(19, 172, 214);
+ 
+}
+
+/* cambiando el color del navbar horizontal */
+
+.navbar{
+   background: linear-gradient(to right, rgba(100,150,250),rgba(50,100,200)) !important;
+}
+
+
+ /* cambiando de color el icono del menu hamburguesa */
+.navbar {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28240, 248, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+/* aplicandole hover al icono del menu hamburguesa */
+.navbar .navbar-toggler:hover{
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2819, 93,214, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+/* cambiando de color el navbar vertical */
+.offcanvas-body{
+    background: linear-gradient(to right, rgba(100,150,250),rgba(50,100,200));
+   
+}
+
+/* aplicando hover al icono de cerrar of canvas */
+.btn-close:hover {
+    --bs-btn-close-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23911'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
+  }
+  
+
+/* color del main  */
+  .bg-principal{
+    background: linear-gradient(to bottom, aliceBlue, rgb(40, 135, 203));
+    min-height: 100vh;
+}
+
+/* cambiando el color de las botones previus y next respectivamente */
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23119'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+   
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23119'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  }
+  
+
+/* cambiando el color de los indicadores del carrusel */
+  .carousel-indicators [data-bs-target]{
+    background-color: rgb(35, 97, 231);
+  }
+
+
+
+
+.row{
+  justify-content: center;
+}
+
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+    // No media query for `xs` since this is the default in Bootstrap */
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media  (min-width: 768px) {
+    .carousel-inner img{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
+}
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .nav-item:hover {
+    background-color: transparent;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
