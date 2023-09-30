@@ -1,9 +1,24 @@
+:root {
+  --bd-color:rgb(198, 210, 226);
+  --bg-alpha-color: rgba(245, 245, 245, 0.75);
+}
+
 .navbar-brand img{
     width: 50px;
     height: auto;
     color: rgb(19, 172, 214);
  
 }
+
+
+.bg-color {
+  background-color: var(--bd-color);
+}
+
+.bg-alpha-color {
+  background-color: var(--bg-alpha-color);
+}
+
 
 /* cambiando el color del navbar horizontal */
 
@@ -62,6 +77,18 @@
 
 .row{
   justify-content: center;
+}
+
+
+
+/* cambiando la imagen de fondo de la pagina de sucursales seccion sucursal sur y este */
+
+
+.bg-hero-image {
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 

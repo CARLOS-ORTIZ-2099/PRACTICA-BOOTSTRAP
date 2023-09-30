@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>sucursales</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar bg-success fixed-top ">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="https://img.freepik.com/vector-premium/plantilla-diseno-logotipo-agua-onda_7492-310.jpg" alt="Logo"  class="d-inline-block align-text-top">
+                OcCorp
+            </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        OcCorp
+                    </h5>
+
+                    <button  type="button" class="btn-close fs-3"
+                    data-bs-dismiss="offcanvas" aria-label="Close">
+
+                    </button>
+                </div>
+
+                <div class="offcanvas-body ">
+
+                    <ul class="border text-center  navbar-nav justify-content-start flex-grow-1 pe-3 mt-5">
+                      <li class="nav-item  mb-5">
+                        <a class="fs-3 nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+
+                      <li class="nav-item mb-5">
+                        <a class="fs-3 nav-link" href="sucursales.html">sucursales</a>
+                      </li>
+
+                      <li class="nav-item mb-5">
+                        <a class="fs-3 nav-link" href="#">modelos</a>
+                      </li>
+
+                      <li class="nav-item mb-5">
+                        <a class="fs-3 nav-link" href="#">contacto</a>
+                      </li>
+                      
+                    </ul>
+            
+                </div>
+
+          </div>
+          
+        </div>
+
+    </nav>
+
+    <main class="pt-5 bg-color">
+        <section id="sucursal-norte" class="pt-5 pb-5 container">
+
+            <div class="text-center ">
+                <h2>sucursal norte</h2>
+                <p class="fs-5"> ven y conoce nuestras sucursales de la region norte</p>
+            </div>
+
+            <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="https://hyundai.petroautos.com/assets/uploads/162699292562673.png" class="d-block w-100" alt="sucursal a">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="https://hyundai.petroautos.com/assets/uploads/162699296933985.png" class="d-block w-100" alt="sucursal a">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="https://hyundai.petroautos.com/assets/uploads/162699305082800.png" class="d-block w-100" alt="sucursal a">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="https://hyundai.petroautos.com/assets/uploads/162699311887075.png" class="d-block w-100" alt="sucursal a">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="https://hyundai.petroautos.com/assets/uploads/162699314014425.png" class="d-block w-100" alt="sucursal a">
+                        </div>
+                        
+                        
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+            </div>
+
+        </section>
+
+
+            <!-- aqui establecemos el atributo styles para definir estilos en linea, se podria decir que estamos creando una variable css en linea, cuyo valor sera la ruta de una determinada imagen, ahora esta propiedad que creamos en linea servira para hacer referencia en css  e indicarle que imagen tendra una u otra seccion ya que ambas comparten la misma clase y las mismas propiedades, pero cada una tendra una imagen distinta-->
+        <section id="sucursal-sur" 
+            class=" min-vh-100 bg-hero-image"
+            style="--bg-image: url(https://hyundai.petroautos.com/assets/uploads/162699316221135.png)" 
+        >
+            
+            <article class="min-vh-100 bg-alpha-color d-flex align-items-center">
+
+                <div class="container ">
+
+                    <article class="col-12 col-lg-6 offset-lg-6">
+                            <a class="btn btn-lg btn-success text-white" href="contacto.html">
+                                <b>desde $400 <small>USD</small> </b>
+                            </a>
+                            <h2 class="mt-4">Sitio de una sola pagina</h2>
+                            <small>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt odio voluptas dignissimos eligendi, laborum dolorum atque, sapiente earum iure tenetur perferendis perspiciatis aliquid sequi aut officiis soluta cum, voluptate repellendus.
+                            </small>
+                            <!-- con my-5 definimos un margin en el eje y de 5 que es el valor maximo -->
+                            <p class="my-5 fs-5">
+                                Lorem ipsum <b>codigo</b> sit amet consectetur adipisicing elit. Voluptatum recusandae voluptas nobis maiores dolorum praesentium? Nisi ab totam placeat, veritatis quisquam dolores facere, dolore delectus, explicabo aliquam excepturi mollitia tempora.
+                            </p>
+                            <a class="fs-4 fw-bold" href="contacto.html">solicita tu cotizacion
+                                <i class="bi bi-chevron-right"></i>
+                            </a>
+
+                            <div class="row mt-5">
+
+                                <div class="col border border-primary">
+                                    <p>carros nuevos<i class="bi bi-check"></i></p>
+                                    <p>carros seminuevos<i class="bi bi-check"></i></p>
+                                    <p>garantia<i class="bi bi-check"></i></p>
+                                </div>
+
+                                <div class="col border border-secondary">
+                                    <p>seriedad<i class="bi bi-check"></i></p>
+                                    <p>responsabilidad<i class="bi bi-check"></i></p>
+                                    <p>honestidad<i class="bi bi-check"></i></p>
+                                </div>
+
+                            </div>
+
+                    </article>
+
+                </div>
+           
+            </article>
+
+           
+        </section>
+
+        <section id="sucursal-este" 
+            class="min-vh-100 bg-hero-image"
+            style="--bg-image: url(https://hyundai.petroautos.com/assets/uploads/162699314014425.png)"    
+        >
+            
+            <article class="min-vh-100 bg-alpha-color d-flex align-items-center">
+
+                <div class="container ">
+
+                        <article class="col-12 col-lg-6">
+                                <a class="btn btn-lg btn-success text-white" href="contacto.html">
+                                    <b>desde $400 <small>USD</small> </b>
+                                </a>
+                                <h2 class="mt-4">Sitio de una sola pagina</h2>
+                                <small>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt odio voluptas dignissimos eligendi, laborum dolorum atque, sapiente earum iure tenetur perferendis perspiciatis aliquid sequi aut officiis soluta cum, voluptate repellendus.
+                                </small>
+                                <!-- con my-5 definimos un margin en el eje y de 5 que es el valor maximo -->
+                                <p class="my-5 fs-5">
+                                    Lorem ipsum <b>codigo</b> sit amet consectetur adipisicing elit. Voluptatum recusandae voluptas nobis maiores dolorum praesentium? Nisi ab totam placeat, veritatis quisquam dolores facere, dolore delectus, explicabo aliquam excepturi mollitia tempora.
+                                </p>
+                                <a class="fs-4 fw-bold" href="contacto.html">solicita tu cotizacion
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+
+                                <div class="row mt-5">
+
+                                    <div class="col border border-primary">
+                                        <p>carros nuevos<i class="bi bi-check"></i></p>
+                                        <p>carros seminuevos<i class="bi bi-check"></i></p>
+                                        <p>garantia<i class="bi bi-check"></i></p>
+                                    </div>
+
+                                    <div class="col border border-secondary">
+                                        <p>seriedad<i class="bi bi-check"></i></p>
+                                        <p>responsabilidad<i class="bi bi-check"></i></p>
+                                        <p>honestidad<i class="bi bi-check"></i></p>
+                                    </div>
+
+                                </div>
+
+                        </article>
+
+                </div>
+        
+            </article>
+
+
+        </section>
+
+    </main>
+
+
+
+    <footer class="bg-dark p-3">
+
+        <div class="container text-center">
+         <nav class="d-flex border justify-content-evenly">
+             <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook fs-3"></i></a>
+             <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter fs-3"></i></a>
+             <a href="https://github.com" target="_blank"><i class="bi bi-github fs-3"></i></a>
+             <a href="https://youtube.com" target="_blank"><i class="bi bi-youtube fs-3"></i></a>
+             <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram fs-3"></i></a>
+             <a href="https://m.me/user" target="_blank"><i class="bi bi-messenger fs-3"></i></a>
+             <a href="https://api.whatsapp.com/send?phone=51904095788" target="_blank"><i class="bi bi-whatsapp fs-3"></i></a>
+         </nav>
+           <small class="text-white">&copy todos los derechos reservados  2023</small>
+        </div>
+     
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
