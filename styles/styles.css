@@ -1,6 +1,8 @@
 :root {
   --bd-color:rgb(198, 210, 226);
   --bg-alpha-color: rgba(245, 245, 245, 0.75);
+  --first-color: rgb(228, 104, 82);
+  
 }
 
 .navbar-brand img{
@@ -18,6 +20,13 @@
 .bg-alpha-color {
   background-color: var(--bg-alpha-color);
 }
+
+
+
+.bg-second-alpha-color{
+  background:  rgba(27, 89, 221, 0.55) ;
+}
+
 
 
 /* cambiando el color del navbar horizontal */
@@ -89,6 +98,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+
+.text-first-color {
+  color: var(--first-color);
 }
 
 

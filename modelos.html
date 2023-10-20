@@ -53,8 +53,13 @@
                       </li>
 
                       <li class="nav-item mb-5">
-                        <a class="fs-3 nav-link" href="modelos.html">modelos</a>
+                        <a class="fs-3 nav-link active fw-bold text-white" aria-current="page" href="modelos.html">modelos</a>
                       </li>
+
+                      <li class="nav-item mb-5">
+                        <a class="fs-3 nav-link" href="comencemos.html">comencemos</a>
+                      </li>
+
 
                       <li class="nav-item mb-5">
                         <a class="fs-3 nav-link" href="#">contacto</a>
@@ -71,9 +76,297 @@
     </nav>
 
     <main class="pt-5 bg-color">
-        <section class="min-vh-100">
+        <div class="min-vh-100 pt-5 container">
 
-        </section>
+              <section class="row g-0">
+
+                  <article class="col-12 border border-success text-center">
+                        <h1>clientes & colaboraciones</h1>
+                        <p class="fs-5">esta seccion esta dedicada a algunos de nuestros modelos mas exclusivos </p>
+                  </article>
+
+                  <article class="col-12 border border-success">
+
+                      <div class="card text-bg-dark border-0 rounded-0">
+                          <img src="https://images.unsplash.com/photo-1695445035231-ba8e9918d753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="card-img" alt="...">
+
+                            <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center bg-second-alpha-color d-flex flex-column justify-content-md-center">
+
+                              <h5 class="card-title">hyundai veloster</h5>
+                              <p class="card-text">
+                                  <small>modelo 2024</small>
+                                  <br>
+                                  <!-- aqui agregamos estos dos atriburos  data-bs-toggle y  data-bs-target para vincularlos con el modal que me provee bootstrap -->
+                                  <a class="text-success"
+                                     href=""
+                                     data-bs-toggle="modal"
+                                     data-bs-target="#carro1"
+                                     >
+                                        ver modelo
+                                  </a>
+                              </p>
+
+                              <p class="card-text">
+                                <blockquote class="d-none d-md-block">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur exercitationem adipisci omnis voluptatum incidunt 
+                                </blockquote>
+                              </p>
+
+                            </div>
+
+                      </div>
+              
+                              <!-- Modal -->
+                              <!-- aqui en el atributo id tenemos que hacer que coincida con el 
+                               atributo data-bs-target="#carro1" del enlace para que haga referencia a esa imagen -->
+                      <div class="modal fade" id="carro1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+
+                          <div class="modal-content">
+
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="staticBackdropLabel">carro 1</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                <img class="img-fluid" src="img/work-layout-1.jpg" alt="">
+                              </div>
+                        
+                          </div>
+                        </div>
+                        
+                      </div>
+
+
+                  </article>
+
+                  <article class="col-12 border border-success col-md-6 col-lg-4">
+                    
+                      <div class="card text-bg-dark border-0 rounded-0">
+                        <img src="https://images.unsplash.com/photo-1609532269538-57cbf63135c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="card-img" alt="...">
+                        
+                          <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+
+                            <h5 class="card-title">hyundai veloster</h5>
+                            <p class="card-text">
+                                <small>modelo 2024</small>
+                                <br>
+                                <a 
+                                  class="text-success" 
+                                  href=""
+                                  data-bs-toggle="modal"
+                                  data-bs-target="#carro2"  
+                                >
+                                      ver modelo
+                                </a>
+                            </p>
+
+                            <p class="card-text">
+                              <blockquote class="d-none d-md-block">
+                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur exercitationem adipisci omnis voluptatum incidunt 
+                              </blockquote>
+                            </p>
+
+                          </div>
+
+                      </div>
+
+                      <div class="modal fade" id="carro2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+
+                          <div class="modal-content">
+
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="staticBackdropLabel">carro 1</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                <img class="img-fluid" src="img/work-layout-1.jpg" alt="">
+                              </div>
+                        
+                          </div>
+                        </div>
+                        
+                      </div>
+                      
+                  </article>
+
+                  <article class="col-12 border border-success col-md-6 col-lg-4">
+                    
+                      <div class="card text-bg-dark border-0 rounded-0">
+                        <img src="https://images.unsplash.com/photo-1610768207795-72169abdf0d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" class="card-img" alt="...">
+                        
+                          <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+
+                            <h5 class="card-title">hyundai veloster</h5>
+                            <p class="card-text">
+                                <small>modelo 2024</small>
+                                <br>
+                                <a class="text-success" href="">
+                                      ver modelo
+                                </a>
+                            </p>
+
+                            <p class="card-text">
+                              <blockquote class="d-none d-md-block">
+                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur exercitationem adipisci omnis voluptatum incidunt 
+                              </blockquote>
+                            </p>
+
+                          </div>
+
+                      </div>
+
+                  </article>
+
+                  <article class="col-12 border border-success col-md-6 col-lg-4">
+                      <div class="card text-bg-dark border-0 rounded-0">
+                        <img src="https://images.unsplash.com/photo-1530675706010-bc677ce30ab6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="card-img" alt="...">
+                        
+                          <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+
+                            <h5 class="card-title">hyundai veloster</h5>
+                            <p class="card-text">
+                                <small>modelo 2024</small>
+                                <br>
+                                <a class="text-success" href="">
+                                      ver modelo
+                                </a>
+                            </p>
+
+                            <p class="card-text">
+                              <blockquote class="d-none d-md-block">
+                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur exercitationem adipisci omnis voluptatum incidunt 
+                              </blockquote>
+                            </p>
+
+                          </div>
+
+                      </div>
+                  </article>
+
+
+                  <article class="col-12 border border-success col-md-6 col-lg-4">
+
+                      <div class="card text-bg-dark border-0 rounded-0">
+                        <img src="https://images.unsplash.com/photo-1547744152-14d985cb937f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="card-img" alt="...">
+                        
+                          <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+
+                            <h5 class="card-title">hyundai veloster</h5>
+                            <p class="card-text">
+                                <small>modelo 2024</small>
+                                <br>
+                                <a class="text-success" href="">
+                                      ver modelo
+                                </a>
+                            </p>
+
+                            <p class="card-text">
+                              <blockquote class="d-none d-md-block">
+                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur exercitationem adipisci omnis voluptatum incidunt 
+                              </blockquote>
+                            </p>
+
+                          </div>
+
+                      </div>
+
+                  </article>
+
+
+                  <article class="col-12 border border-success col-md-6 col-lg-4">
+
+                      <div class="card text-bg-dark border-0 rounded-0">
+                        <img src="https://images.unsplash.com/photo-1617199088451-ef1278c7e6be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80" class="card-img" alt="...">
+                        
+                          <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+
+                            <h5 class="card-title">hyundai veloster</h5>
+                            <p class="card-text">
+                                <small>modelo 2024</small>
+                                <br>
+                                <a class="text-success" href="">
+                                      ver modelo
+                                </a>
+                            </p>
+
+                            <p class="card-text">
+                              <blockquote class="d-none d-md-block">
+                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur exercitationem adipisci omnis voluptatum incidunt 
+                              </blockquote>
+                            </p>
+
+                          </div>
+
+                      </div>
+
+                  </article>
+
+
+                  <article class="col-12 border border-success col-md-6 col-lg-4">
+                      <div class="card text-bg-dark border-0 rounded-0">
+                        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="card-img" alt="...">
+                        
+                          <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+
+                            <h5 class="card-title">hyundai veloster</h5>
+                            <p class="card-text">
+                                <small>modelo 2024</small>
+                                <br>
+                                <a class="text-success" href="">
+                                      ver modelo
+                                </a>
+                            </p>
+
+                            <p class="card-text">
+                              <blockquote class="d-none d-md-block">
+                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur exercitationem adipisci omnis voluptatum incidunt 
+                              </blockquote>
+                            </p>
+
+                          </div>
+
+                      </div>
+                  </article>
+              
+              
+                  <article class="col-12 border border-success">
+
+                      <div class="card text-bg-dark border-0 rounded-0">
+                        <img src="https://images.unsplash.com/photo-1549473472-b8972f16f96d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="card-img" alt="...">
+                        
+                          <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+
+                            <h5 class="card-title">hyundai veloster</h5>
+                            <p class="card-text">
+                                <small>modelo 2024</small>
+                                <br>
+                                <a class="text-success" href="">
+                                      ver modelo
+                                </a>
+                            </p>
+
+                            <p class="card-text">
+                              <blockquote class="d-none d-md-block">
+                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur exercitationem adipisci omnis voluptatum incidunt 
+                              </blockquote>
+                            </p>
+
+                          </div>
+
+                      </div>
+
+                  </article>
+
+              </section>
+
+
+        </div>
     </main>
 
 
